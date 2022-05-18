@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Principal.css">
+    <link rel="icon" href="./WorldOfFantasy.ico">
+    <title>World of Fantasy</title>
+</head>
+<body>
+    <section>
+
+        <header>
+            <img src="Logo.png" width="150">
+            <form action="" class="form-box animated fadeInUp">
+                    <ul>
+                        <font color="white">
+                            <li><a href="./Home.html"> World Of Fantasy</a></li>
+                        </font>
+                    </ul>
+            </form>
+        </header>
+        <div class="content">
+            <div class="textbox">
+                <font color= white>
+                <h2><br>World of Fantasy es un Demo de un Minijuego medieval rpg, que explora en un mundo y da una prueba de lo que puedes hacer dentro del juego. <br><br><span> Dentro de este puedes atacar a los enemigos e Intercambia los objetivos por otros mejores. </span></h2><br>
+                <a href="./Proposito del Proyecto.html">Proposito del Proyecto</a>
+                </font>
+            </div>
+            <div class="imgBox">
+                <img src="./Personaje1.png" class="nurture">
+            </div>
+        </div>
+        <ul class="thumb">
+            <font color= white>
+            <li>Personajes:</li>
+            </font>
+            <font color="white">
+            <li><img src="./Personaje1.gif" width="70" onclick="imgSlider('./Personaje1.png')"></li>
+            <li><img src="./Personaje2.gif" width="70" onclick="imgSlider('./Personaje2.png')"></li>
+            <li><img src="./Personaje3.gif" width="70" onclick="imgSlider('./Personaje3.png')"></li>
+            <li><img src="./Personaje4.gif" width="70" onclick="imgSlider('./Personaje4.png')"></li>
+            <li><img src="./Personaje5.gif" width="70" onclick="imgSlider('./Personaje5.png')"></li>
+            <li><img src="./Personaje6.gif" width="70" onclick="imgSlider('./Personaje6.png')"></li>
+            </font>
+        </ul>
+    </section>
+    <script type="text/javascript">
+    function imgSlider(anyithing){
+        document.querySelector('.nurture').src=anyithing;
+    }
+    </script>
+</body>
+</html>
